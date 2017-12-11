@@ -32,8 +32,8 @@
                                                       placeholder="Origin" id="origin" autofocus/>
                 </div>
                 <div class="searchMaxPrice item">
-                    <input type="number" step=100 min=0 ng-model="data.priceMax" name="priceMax"
-                               class="form-control" id="priceMax" placeholder="Max price"/>
+                    <input type="number" value="500" step="100" min=100 ng-model="data.priceMax" name="priceMax"
+                               class="form-control" id="priceMax" placeholder="Max price: $500"/>
                 </div>
                 <div class="searchStartDate item">
                     <input type="date" ng-model="data.startDate" id="fromdate" name="fromdate"
